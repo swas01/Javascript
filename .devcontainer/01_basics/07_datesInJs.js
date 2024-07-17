@@ -39,7 +39,7 @@ console.log(newDate.getDay())//5 (friday)
 
 //`${newDate.getDay()}` and the time ...
 //customising object 
-newDate.toLocaleString('default',{   //default internationalization,can put another internationalization 
+newDate.toLocaleString('default',{  //default internationalization,can put another internationalization 
     weekday:"long"
 
 })
