@@ -23,10 +23,10 @@ let anotherCreatedDate=new Date("2023-01-23")
 let another=new Date("01-14-2023")
 // console.log(another.toLocaleString())
 
-//to get some data like fastest submission 
+//to get some data like fastest submission (Time Stamp)
 let myTimeStamp=Date.now()
-// console.log(myTimeStamp)//1720777240550
-// console.log(another.getTime())//1673654400000 //in ms
+// console.log(myTimeStamp)//1720777240550//in ms
+// console.log(another.getTime())//1673654400000 //Covertion of date into ms
 
 // console.log(Date.now())//1720777387372 in ms
 // console.log(Date.now()/1000)//1720777468.312 (converted into s but with decimal points)
@@ -34,12 +34,12 @@ let myTimeStamp=Date.now()
 
 let newDate = new Date()
 //console.log(newDate)
-console.log(newDate.getMonth()+1);//6+1   (July)
+console.log(newDate.getMonth()+1);//6+1 (because month here starts with 0)  (July)
 console.log(newDate.getDay())//5 (friday)
 
 //`${newDate.getDay()}` and the time ...
 //customising object 
-newDate.toLocaleString('default',{
+newDate.toLocaleString('default',{   //default internationalization,can put another internationalization 
     weekday:"long"
 
 })
