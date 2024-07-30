@@ -1,4 +1,9 @@
-const form = document.querySelector('form');
+ 
+```
+ ##Project 2
+```
+ 
+ const form = document.querySelector('form');
 
 //this usecase will give you empty value
 //const height = parseInt(document.querySelector('height').value)
@@ -26,3 +31,6 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `you are in normal range`;
   }
 });
+
+
+
